@@ -30,4 +30,4 @@ router.post(
   viewsController.updateUserData,
 );
 
-module.exports = router;
+module.exports = { router };

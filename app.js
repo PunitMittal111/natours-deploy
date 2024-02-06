@@ -15,7 +15,7 @@ const tourRouter = require('./starter/routes/tourRoutes');
 const userRouter = require('./starter/routes/userRoutes');
 const reviewRouter = require('./starter/routes/reviewRoutes');
 const bookingRouter = require('./starter/routes/bookingRoutes');
-const viewRouter = require('./starter/routes/viewRoutes');
+const { viewRouter } = require('./starter/routes/viewRoutes');
 
 // Start express app
 const app = express();
@@ -141,3 +141,4 @@ app.use(globalErrorHandler);
 
 module.exports = app;
 //i m ching something
+// made by punit mittal
